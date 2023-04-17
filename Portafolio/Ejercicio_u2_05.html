@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+    Nombre: Juan Diego Reyes Fraga
+    materia: Programación WebI
+    Fecha:
+    Descripción:
+-->
+<html lang="es">
+    <head>
+        <title>Unidad 2 - Ejercicio 05</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Juan Diego Reyes Fraga">
+        <meta name="revised" content="">
+        <meta name="description" content="style,color, text-decoration, background-color, margin">
+        <style>
+            p{
+                background-color: gray;
+                margin: 25px 50px ;
+            }
+            #Parrafoespecial{
+                background-color: crimson;
+                color: blue; 
+                text-decoration: overline;
+            }
+            #miCuadro{
+                border: 5px solid black;
+            }
+            th, td{
+                border: 1px dotted grey;
+            }
+            .alterno{
+                background-color: lightskyblue;
+            }
+            
+            th:hover, td:hover{
+                background-color: lightblue;
+                color: black;
+            }
+            #miCuadro td:hover,#miCuadro th:hover{
+                background-color: lightgreen;
+                color: black;
+            }
+            h1:hover,h2:hover{
+                background-color: lightcoral;
+                color: black;
+            }
+        </style>
+    </head>
+    <body style="color: cadetblue;">
+        <hgroup style="color:slategray">
+            <h1>CSS</h1>
+            <h2>Estilo en línea</h2>
+            <ul style="color: magenta;">
+                <li style=" color: chocolate;"><a href="#"style="text-decoration: overline;">Inicio</a></li>
+                <li style=" color: rgb(148, 120, 120);"><a href="#" style="text-decoration: none;">Alumnos</a></li>
+                <li style=" color: rgb(15, 5, 5);"><a href="#"style="text-decoration: line-through;" >Aspirantes</a></li>
+                <li style=" color: rgba(14, 44, 107, 0.712);"><a href="#" style="text-decoration:underline line-through;">Docentes</a></li>
+                <li style="color: cyan;"><a href="#"style="text-decoration: underline;">Administrativos</a></li>
+            </ul>
+        </hgroup>
+        <hgroup>
+            <h2>Estilos en ecabezado</h2>
+            <p id="Parrafoespecial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra pretium orci sed hendrerit. Suspendisse finibus sodales magna sit amet pulvinar. Donec ut justo urna. Quisque eget sagittis sem, at tempus nulla. Nullam venenatis nunc ut dolor pulvinar pulvinar. Duis turpis eros, vestibulum ut hendrerit eget, eleifend non orci. Cras ornare lorem sed purus ultricies cursus. Mauris pulvinar purus vitae velit mollis, quis tincidunt lorem semper. Cras at eros enim. Donec tellus ante, pellentesque euismod ornare in, auctor quis lorem.</p>
+            <p style="color:darkgreen; text-decoration: line-through;">Quisque vel dui non lectus volutpat euismod. Integer eget lectus luctus odio rhoncus placerat at non magna. Mauris facilisis finibus nunc ac volutpat. Sed consequat eu risus vel tincidunt. Pellentesque tortor justo, tempus vitae posuere mattis, ornare sed felis. Cras sit amet massa at urna commodo bibendum. Phasellus tincidunt finibus massa, a consectetur mi placerat tempus. Nunc rutrum odio condimentum diam ullamcorper, ut hendrerit felis sodales. In lobortis, nulla a tempus iaculis, nibh sem hendrerit est, vel lacinia ex urna ac orci. Integer euismod, tortor ac vehicula maximus, nisl urna interdum orci, eget pretium nisl enim ac magna. Nullam porttitor vitae ipsum at maximus. Donec vel libero sem. In gravida elit nunc, eu malesuada neque ullamcorper a.</p>
+            <p style="color:rgb(207, 35, 63); text-decoration: overline;" >Integer mauris odio, imperdiet eget feugiat eu, pharetra id lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer nec tortor elementum, imperdiet ligula et, cursus odio. Vestibulum convallis, est in efficitur placerat, urna risus lobortis ipsum, eu fermentum turpis quam a massa. Aliquam imperdiet condimentum arcu, sit amet faucibus leo feugiat pharetra. Pellentesque volutpat pharetra dolor quis tempus. Nunc turpis velit, viverra in nunc fermentum, maximus blandit felis. Suspendisse dapibus efficitur elit, ac dapibus augue aliquet ut. Donec dictum odio mattis vestibulum iaculis. Vestibulum sollicitudin bibendum euismod. Vivamus urna risus, commodo in nisi eu, sodales venenatis lorem. Morbi at efficitur est, sit amet vehicula neque. Nam eget arcu sed dui efficitur sagittis. Mauris at justo non mi convallis pretium a quis metus. Vestibulum mattis, lorem eget egestas bibendum, eros arcu facilisis nunc, et sollicitudin sem tellus ut odio. Sed augue arcu, venenatis a mi interdum, scelerisque sagittis mi.</p>
+            <p style="color:rgb(94, 65, 202); text-decoration: wavy;">Nam pretium ligula non tortor euismod elementum. Quisque enim metus, consectetur quis quam eget, dictum auctor nisi. Nulla molestie massa est, nec posuere ante dapibus dictum. Duis eleifend quis arcu sed scelerisque. Vivamus venenatis aliquet velit a euismod. Integer ipsum purus, blandit non dapibus id, hendrerit egestas leo. Fusce in vestibulum sapien. Nunc vestibulum pellentesque ipsum, in molestie urna commodo at. Nam mollis luctus erat a tincidunt. Aliquam eleifend lorem non lacus aliquet consequat.</p>
+        </hgroup>
+        <hgroup>
+            <h2>Estilo con selectores</h2>
+            <table border="5">
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <br>
+            <table id="miCuadro">
+                <thead>
+                  <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="alterno">
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr class="alterno">
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr class="alterno">
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+                </table>
+        </hgroup>
+    </body>
+
+</html>
